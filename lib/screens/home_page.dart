@@ -287,7 +287,7 @@ class HomePage extends StatelessWidget {
   void exitAlertDialogBox(){
     Get.dialog(
         AlertDialog(
-          title: const Text("Alert!"),
+          title: const Text("Alert !"),
           content: const Text("Are sure want exit from the app ?"),
           actions: [
             TextButton(onPressed: (){
@@ -305,7 +305,7 @@ class HomePage extends StatelessWidget {
   void deleteAlertDialogBox(int? serialNo){
     Get.dialog(
       AlertDialog(
-        title: const Text("Alert!"),
+        title: const Text("Alert !"),
         content: const Text("Are you sure want to delete note ?"),
         actions: [
           TextButton(onPressed: (){
